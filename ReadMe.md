@@ -44,6 +44,11 @@ I wanna install 3d-spin component of accentureUI, the registry link is:
 afose add -r https://ui.aceternity.com/registry/3d-pin.json
 ```
 
+> OR
+
+```bash
+npx afose add -r https://ui.aceternity.com/registry/3d-pin.json
+```
 This will check my setup and install it appropriately.
 
 Happy Hacking!
