@@ -20,6 +20,20 @@ After installation, run this command to ensure that you have the cli correctly i
 afose version
 ```
 
+## You don't have to install it before using
+
+To use the package without installing, just use this command instead:
+
+```bash
+npx afose <your command and options follows>
+```
+
+For example:
+
+```bash
+npx afose version
+```
+
 ## Usage of Afose cli
 
 I wanna install 3d-spin component of accentureUI, the registry link is:
