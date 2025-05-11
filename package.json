@@ -1,6 +1,6 @@
 {
   "name": "afose",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A registry cli which is easy and dynamic. It is built with shadcn-ui and tailwindcss.",
   "main": "src/index.ts",
   "type": "commonjs",
@@ -12,8 +12,14 @@
     "format": "prettier --write 'src/**/*.{ts,js,json,md}' *.md",
     "start": "ts-node src/index.ts"
   },
-  "_moduleAliases": {
-    "@": "dist"
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
   },
   "repository": {
     "type": "git",
@@ -42,7 +48,6 @@
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.15.17",
-    "module-alias": "^2.2.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }

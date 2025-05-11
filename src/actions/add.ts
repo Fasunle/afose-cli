@@ -2,7 +2,7 @@ import {
   fetchRegistry,
   installDependencies,
   writeComponentFiles,
-} from '@/registry';
+} from '../registry';
 import { Command } from 'commander';
 
 const addCommand = new Command('add');

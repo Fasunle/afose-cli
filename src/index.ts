@@ -1,9 +1,8 @@
 #!/usr/bin/env node
-import 'module-alias/register'; // Import aliases
 import { Command, program } from 'commander';
 import { version } from '../package.json'; // Import version from package.json
 import addCommand from './actions/add';
-import { detectProjectSetup } from '@/detector';
+import { detectProjectSetup } from './detector';
 
 const versionCommand = new Command('version')
   .description('displays version number')

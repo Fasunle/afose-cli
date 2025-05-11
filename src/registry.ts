@@ -1,6 +1,6 @@
 import path from 'path';
 import { execSync } from 'child_process';
-import { ComponentRegistry } from '@/types/component';
+import { ComponentRegistry } from './types/component';
 
 export async function writeComponentFiles(
   component: ComponentRegistry,
