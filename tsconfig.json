@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "NodeNext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "lib": ["ES2017"],
+    "moduleResolution": "node16",
+    "strict": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "experimentalDecorators": true, // for typeorm
+    "emitDecoratorMetadata": true, // for typeorm
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

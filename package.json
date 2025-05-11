@@ -1,0 +1,49 @@
+{
+  "name": "register",
+  "version": "1.0.0",
+  "description": "A registry cli which is easy and dynamic. It is built with shadcn-ui and tailwindcss.",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "bin": {
+    "afose": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write 'src/**/*.{ts,js,json,md}' *.md",
+    "start": "ts-node src/index.ts"
+  },
+  "_moduleAliases": {
+    "@": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fasunle/afose-cli.git"
+  },
+  "keywords": [
+    "registry-cli",
+    "cli",
+    "shadcn-ui",
+    "accenture-ui",
+    "tailwindcss",
+    "nextjs"
+  ],
+  "author": "Kehinde Fasunle <kfasunle@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fasunle/afose-cli/issues"
+  },
+  "homepage": "https://github.com/fasunle/afose-cli#readme",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "node-fetch": "^3.3.2",
+    "prettier": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.15.17",
+    "module-alias": "^2.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
