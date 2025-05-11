@@ -1,5 +1,5 @@
 {
-  "name": "register",
+  "name": "afose",
   "version": "1.0.0",
   "description": "A registry cli which is easy and dynamic. It is built with shadcn-ui and tailwindcss.",
   "main": "src/index.ts",
